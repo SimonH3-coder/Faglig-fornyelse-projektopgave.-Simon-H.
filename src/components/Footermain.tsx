@@ -4,7 +4,7 @@ import SoMeYouTube from "../assets/SoMe-YouTube.svg";
 export function Footermain() {
   return (
     // GLOBAL FOOTER
-    <footer className=" grid bg-[#4f74bf] text-[#ededed]">
+    <footer className=" grid md:grid-cols-3 bg-[#4f74bf] text-[#ededed]">
       <ul className="flex flex-col font-[Montserrat, sans-serif] items-start list-none m-8 p-0 ml-8 ">
         <h4 className="text-[#e4b834] font-[Smooch_Sans] text-[2.5rem]">BrianAir</h4>
         <li>Esplanaden 50</li>

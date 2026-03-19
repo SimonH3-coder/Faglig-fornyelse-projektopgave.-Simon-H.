@@ -14,7 +14,7 @@ export function Reunion() {
       <header>
         <h2 className=" text-[#4f74bf] mx-2 front-normal text-[4rem] font-Smooch my-2 py-2">Indtryk fra Réunion</h2>
       </header>
-      <figure className="grid grid-cols-1 gap-4  my-2 mx-0 px-0">
+      <figure className="grid gap-4  grid-cols-1 sm:grid-cols-2 md:grid-cols-4  my-2 mx-0 px-0">
         <img src={Reunionisland01} alt="Réunion Island-01" />
         <img src={Reunionisland02} alt="Réunion Island-02" />
         <img src={Reunionisland03} alt="Réunion Island-03" />

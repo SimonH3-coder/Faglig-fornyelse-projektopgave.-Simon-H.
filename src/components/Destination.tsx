@@ -4,8 +4,8 @@ export function Destination() {
   return (
     // GLOBAL DESTINATION
     <section className="container mx-auto px-4">
-      <h2 className=" text-[#4f74bf] mx-2 front-normal text-[4rem] font-Smooch my-2 py-2">Destination Juni 2025</h2>
-      <figure className="grid-cols-2 gap-4 md:grid">
+      <h2 className="text-[#4f74bf] mx-2 font-normal text-[4rem] font-Smooch my-2 py-2">Destination Juni 2025</h2>
+      <figure className="grid gap-4 grid-cols-1 md:grid-cols-2 ">
         <video className="block w-full" src={islandmp4} controls></video>
         <figcaption className="text-[#333333] text-[1.5rem] font-Montserrat my-4 py-4 px-0">
           <article>
